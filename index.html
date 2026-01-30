@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Home</title>
+    <style>
+        body { font-family: Arial; background:#f4f4f4; margin:0; }
+        header { background:#222; color:white; padding:15px; text-align:center; }
+        nav a { color:white; margin:10px; text-decoration:none; }
+        .container { padding:20px; }
+        .products { display:flex; gap:20px; flex-wrap:wrap; }
+        .card {
+            background:white;
+            padding:15px;
+            width:200px;
+            border-radius:5px;
+            text-align:center;
+            box-shadow:0 0 8px rgba(0,0,0,0.2);
+        }
+        .card img { width:100%; height:150px; }
+        .btn {
+            display:inline-block;
+            background:green;
+            color:white;
+            padding:8px 12px;
+            margin-top:10px;
+            text-decoration:none;
+        }
+        footer { background:#222; color:white; text-align:center; padding:10px; }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My E-Commerce Store</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="checkout.html">Checkout</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Products</h2>
+    <div class="products">
+        <div class="card">
+            <img src="https://via.placeholder.com/200">
+            <h3>Product 1</h3>
+            <p>$20</p>
+            <a href="product.html" class="btn">View</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200">
+            <h3>Product 2</h3>
+            <p>$35</p>
+            <a href="product.html" class="btn">View</a>
+        </div>
+    </div>
+</div>
+
+<footer>© 2026 My Store</footer>
+
+</body>
+</html>
